@@ -1,10 +1,5 @@
 '''
 Graph Transformer Encoder with Laplacian Positional Encoding for COSMOS
-PRODUCTION VERSION v1.2 - Fully tested and debugged
-
-CRITICAL FIXES:
-- v1.1: Fixed PE caching to prevent "backward through graph" errors
-- v1.2: Fixed device handling, added robust error checking, improved stability
 '''
 import torch
 import torch.nn as nn

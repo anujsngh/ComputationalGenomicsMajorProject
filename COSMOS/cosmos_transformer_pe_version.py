@@ -9,8 +9,6 @@ Usage:
     model = Cosmos(adata1=rna_data, adata2=protein_data)
     model.preprocessing_data(n_neighbors=10)
     embedding = model.train(z_dim=50, pe_dim=8, use_pe=True)
-
-Version: Updated with inference capabilities
 '''
 import math
 import os
@@ -64,12 +62,6 @@ class Cosmos(object):
     - Graph Transformer: Global attention mechanism
     - Laplacian Positional Encoding: Topology awareness
     - Proven WNN fusion: Unchanged from original COSMOS
-    
-    Key improvements over original:
-    - +8-15% ARI on complex datasets
-    - Captures long-range dependencies
-    - Topology-aware via PE
-    - Standard practice (Graphormer, SAN, GraphGPS)
     
     NEW in this version:
     - Inference mode for new data
