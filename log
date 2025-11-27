@@ -1,0 +1,56 @@
+running install
+C:\Users\anujs\miniconda3\envs\CGENV\Lib\site-packages\setuptools\_distutils\cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+C:\Users\anujs\miniconda3\envs\CGENV\Lib\site-packages\setuptools\_distutils\cmd.py:66: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+running bdist_egg
+running egg_info
+creating COSMOS\COSMOS.egg-info
+writing COSMOS\COSMOS.egg-info\PKG-INFO
+writing dependency_links to COSMOS\COSMOS.egg-info\dependency_links.txt
+writing top-level names to COSMOS\COSMOS.egg-info\top_level.txt
+writing manifest file 'COSMOS\COSMOS.egg-info\SOURCES.txt'
+reading manifest file 'COSMOS\COSMOS.egg-info\SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'COSMOS\COSMOS.egg-info\SOURCES.txt'
+installing library code to build\bdist.win-amd64\egg
+running install_lib
+warning: install_lib: 'build\lib' does not exist -- no Python modules to install
+
+creating build
+creating build\bdist.win-amd64
+creating build\bdist.win-amd64\egg
+creating build\bdist.win-amd64\egg\EGG-INFO
+copying COSMOS\COSMOS.egg-info\PKG-INFO -> build\bdist.win-amd64\egg\EGG-INFO
+copying COSMOS\COSMOS.egg-info\SOURCES.txt -> build\bdist.win-amd64\egg\EGG-INFO
+copying COSMOS\COSMOS.egg-info\dependency_links.txt -> build\bdist.win-amd64\egg\EGG-INFO
+copying COSMOS\COSMOS.egg-info\top_level.txt -> build\bdist.win-amd64\egg\EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist\COSMOS-1.0-py3.13.egg' and adding 'build\bdist.win-amd64\egg' to it
+removing 'build\bdist.win-amd64\egg' (and everything under it)
+Processing COSMOS-1.0-py3.13.egg
+Removing c:\users\anujs\appdata\roaming\python\python313\site-packages\COSMOS-1.0-py3.13.egg
+error: [WinError 32] The process cannot access the file because it is being used by another process: 'c:\\users\\anujs\\appdata\\roaming\\python\\python313\\site-packages\\COSMOS-1.0-py3.13.egg'

@@ -1,0 +1,3 @@
+Dataset,Method,Cells,Features_Mod1,Features_Mod2,ARI,NMI,Homogeneity,Completeness,V-measure,Silhouette,Spatial_Coherence,Optimal_Resolution,Hyperparam_z_dim,Hyperparam_num_heads,Hyperparam_dropout,Hyperparam_pe_dim,Hyperparam_use_pe
+SpatialMultiomics_MultiSim,GCN,3000,6000,300,0.893234149832391,0.8689788058337079,0.8797868489501092,0.8584330902851978,0.868978805833708,0.41249871253967285,0.9475666666666666,0.5,,,,,
+SpatialMultiomics_MultiSim,Graph Transformer + PE,3000,6000,300,0.7227311728461627,0.6908094434445302,0.6777341265659229,0.7043992014438574,0.6908094434445301,0.1329583376646042,0.9243999999999999,0.3,50.0,8.0,0.1,16.0,True

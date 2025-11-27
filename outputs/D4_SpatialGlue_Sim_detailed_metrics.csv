@@ -1,0 +1,3 @@
+Dataset,Method,Cells,Features_Mod1,Features_Mod2,ARI,NMI,Homogeneity,Completeness,V-measure,Silhouette,Spatial_Coherence,Optimal_Resolution,Hyperparam_z_dim,Hyperparam_num_heads,Hyperparam_dropout,Hyperparam_pe_dim,Hyperparam_use_pe
+SpatialGlue_Sim,GCN,1296,100,1000,0.6541366331355374,0.7514034874815227,0.7634676774547061,0.7397146390921527,0.7514034874815229,0.415613055229187,0.911033950617284,1.2,,,,,
+SpatialGlue_Sim,Graph Transformer + PE,1296,100,1000,0.51690482245318,0.6042357391560665,0.6462592723975077,0.5673437516444512,0.6042357391560665,0.15569159388542175,0.739891975308642,1.5,50.0,4.0,0.2,8.0,True

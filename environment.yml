@@ -1,0 +1,24 @@
+name: COSMOS_V2
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+      - pandas
+      - numpy
+      - scanpy
+      - matplotlib
+      - umap-learn
+      - scikit-learn
+      - seaborn
+      - torch
+      - networkx
+      - gudhi
+      - anndata
+      - cmcrameri
+      - torch-geometric
+      - louvain
+      - leidenalg
